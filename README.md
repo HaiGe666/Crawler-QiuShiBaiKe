@@ -1,6 +1,6 @@
 # Crawler-QiuShiBaiKe
 练手的糗事百科爬虫
-
+```
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -51,3 +51,4 @@ import pandas
 df = pandas.DataFrame(total)
 
 df.to_excel('fun.xlsx')
+```
